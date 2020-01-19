@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a;          \\defining variable and its data type
+    int b;
+    int sum;
+    cout<<"Enter any number"<<endl;
+    cin>>a;                                 \\taking input from user
+    cout<<"Enter another number"<<endl;
+    cin>>b;
+    sum = a+b;
+    cout<<"the sum is"<<sum<<endl;
+    return 0;
+}
