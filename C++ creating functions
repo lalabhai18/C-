@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+void print();                       \\declare function
+int main()
+{
+    print();                        \\call function
+    return 0;
+}
+
+void print()                          \\define function
+{
+    cout<<"you are inside the function"<<endl;
+}
