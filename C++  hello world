@@ -1,0 +1,7 @@
+#include <iostream>      \\used to import file name iostream
+using namespace std;     \\used to import standard libraries
+int main()               \\ function name main and return type is int and arguments are none 
+{
+    cout<<"Hello World"<<endl;     \\cout is used to print on screen and endl is used to end the line 
+    return 0;                      \\used to check whether the function has runned or not 
+}
