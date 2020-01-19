@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+int addnumbers(int a,int b);       
+int main()
+{
+    int c;
+    int a,b;
+    cin>>a;
+    cin>>b;
+    c = addnumbers(10,20);
+    cout<<c<<endl;
+    return 0;
+}
+
+int addnumbers(int a,int b)
+{
+    int sum;
+    sum = a+b;
+    return sum;
+}
