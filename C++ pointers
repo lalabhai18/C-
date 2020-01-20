@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a=5;
+    int *b;                       \\pointer declaration
+    b = &a;                        \\assign address to pointer
+    cout<<b<<endl;
+    cout<<*b<<endl;
+    return 0;
+}
